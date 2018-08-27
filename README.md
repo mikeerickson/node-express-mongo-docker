@@ -9,7 +9,7 @@ A simple Node Express application connecting to MongoDB using TypeScript.
 ### License
 
 Copyright &copy; 2018 Mike Erickson
-Released under the [MIT](https://github.com/mikeerickson/node-express-mongo-docker/blob/master/LICENSE) license
+Released under the [MIT](https://raw.githubusercontent.com/mikeerickson/node-express-mongo-docker/master/LICENSE) license
 
 ### Credits
 
