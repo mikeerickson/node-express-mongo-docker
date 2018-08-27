@@ -8,7 +8,8 @@ A simple Node Express application connecting to MongoDB using TypeScript.
 
 ### TODO
 
--[] Add TypeScript Support
+-   [x] Add ESLinting
+-   [ ] Add TypeScript Support
 
 ### License
 
