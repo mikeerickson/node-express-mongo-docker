@@ -1,5 +1,3 @@
-require('dotenv').load();
-
 const express = require('express');
 const mongodb = require('mongodb');
 const chalk = require('chalk');
@@ -7,11 +5,10 @@ const chalk = require('chalk');
 const app = express();
 
 const config = require('./config/app');
-const APP_PORT = process.env.APP_PORT || 4242;
+const APP_PORT = 4242;
 const client = mongodb.MongoClient;
-
 client.connect(
-	config.DB_CONNECTION,
+	config.DB,
 	(err, db) => {
 		if (err) {
 			console.log('Unable to connect to database');

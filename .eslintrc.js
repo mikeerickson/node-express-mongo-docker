@@ -3,13 +3,13 @@ module.exports = {
 	env: {
 		node: true,
 	},
-	extends: ['plugin:vue/essential'],
+	parserOptions: {
+		ecmaVersion: 6,
+	},
+	extends: [],
 	rules: {
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'comma-dangle': 'off',
-	},
-	parserOptions: {
-		parser: 'typescript-eslint-parser',
 	},
 };
