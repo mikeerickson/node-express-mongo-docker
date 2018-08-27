@@ -7,8 +7,10 @@
 		"build": "npm run docker-build",
 		"docker-build": "docker-compose build",
 		"docker-start": "docker-compose up -d",
-		"docker-update": "docker-compose build",
+		"docker-update": "docker-compose down && npm run docker-build && npm run docker-strt",
 		"lint": "bash ./scripts/lint.sh",
+		"mongo-logs": "docker-compose logs -tf mongo",
+		"mongo-client": "docker exec -it mongo mongo",
 		"start": "npm run docker-start",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -28,5 +30,9 @@
 	},
 	"devDependencies": {
 		"eslint": "5.4.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mikeerickson/node-express-mongo-docker.git"
 	}
 }
