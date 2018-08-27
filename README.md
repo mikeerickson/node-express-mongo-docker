@@ -6,6 +6,10 @@ A simple Node Express application connecting to MongoDB using TypeScript.
 
 ### Usage
 
+### TODO
+
+-[] Add TypeScript Support
+
 ### License
 
 Copyright &copy; 2018 Mike Erickson
