@@ -11,6 +11,7 @@ A simple Node Express application connecting to MongoDB using TypeScript.
 -   [x] Add ESLint Support
 -   [x] Integrate .env
 -   [ ] Add Routing
+-   [ ] Add chalk notification helpers (should be done with TypeScript integration)
 -   [ ] Add TypeScript Support
 
 ### License
