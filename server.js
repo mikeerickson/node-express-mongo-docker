@@ -4,6 +4,8 @@ const express = require('express');
 const mongodb = require('mongodb');
 const chalk = require('chalk');
 
+const routes = require('./src/routes');
+
 const app = express();
 
 const config = require('./config/app');
