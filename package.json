@@ -1,0 +1,17 @@
+{
+  "name": "node-express-mongo-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mike Erickson <codedungeon@gmail.com> (https://github.com/mikeerickson)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "express": "4.16.3",
+    "mongodb": "3.1.4"
+  }
+}
