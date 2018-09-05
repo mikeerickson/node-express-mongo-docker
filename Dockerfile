@@ -5,4 +5,5 @@ COPY package-lock.json /app
 RUN npm install
 COPY . /app
 CMD node server.js
+VOLUME ./data/db /data/db
 EXPOSE 4242

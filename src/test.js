@@ -1,4 +1,4 @@
-let chalk = require('chalk')
+let chalk = require('chalk');
 
-let cmd = 'mike'
-console.log(cmd)
+let cmd = 'mike';
+console.log(cmd);
